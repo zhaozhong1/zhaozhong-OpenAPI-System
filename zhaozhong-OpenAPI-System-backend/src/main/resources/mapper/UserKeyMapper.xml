@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhaozhong.openAPI.mapper.UserKeyMapper">
+
+    <resultMap id="BaseResultMap" type="com.zhaozhong.openAPI.model.entity.UserKey">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="userId" column="user_id" jdbcType="BIGINT"/>
+            <result property="accessKey" column="access_key" jdbcType="VARCHAR"/>
+            <result property="secretKey" column="secret_key" jdbcType="VARCHAR"/>
+            <result property="isActive" column="is_active" jdbcType="TINYINT"/>
+            <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+            <result property="isDelete" column="is_delete" jdbcType="TINYINT"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,user_id,access_key,
+        secret_key,is_active,create_time,
+        is_delete
+    </sql>
+
+    <select id="getAkSkByUserId" resultType="com.zhaozhong.openAPI.model.entity.UserKey">
+        select access_key,secret_key from user_center.user_key where user_id = #{userId} and is_active = 0 limit 1;
+    </select>
+
+</mapper>

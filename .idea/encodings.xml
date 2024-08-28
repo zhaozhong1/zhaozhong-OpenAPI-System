@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/backend/zhaozhong-OpenAPI-System-backend/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/backend/zhaozhong-OpenAPI-System-backend/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway/zhaozhong-OpenApi-Gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway/zhaozhong-OpenApi-Gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhaozhong-OpenAPI-System-backend/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhaozhong-OpenAPI-System-backend/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhaozhong-OpenAPI-client-sdk/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhaozhong-OpenAPI-client-sdk/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhaozhong-OpenAPI-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhaozhong-OpenAPI-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhaozhong-OpenAPI-common/zhaozhong-OpenAPI-innerService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhaozhong-OpenAPI-common/zhaozhong-OpenAPI-innerService/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhaozhong-OpenAPI-common/zhaozhong-OpenAPI-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhaozhong-OpenAPI-common/zhaozhong-OpenAPI-model/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhaozhong-OpenApi-Gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhaozhong-OpenApi-Gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhaozhong-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhaozhong-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhaozhong-api/zhaozhong-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhaozhong-api/zhaozhong-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhaozhongApi-client-sdk/zhaozhong-OpenAPI-client-sdk/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/zhaozhongApi-client-sdk/zhaozhong-OpenAPI-client-sdk/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

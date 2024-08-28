@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhaozhong.openAPI.mapper.ApiInfoMapper">
+
+    <select id="testPage" resultType="com.zhaozhong.openAPI.model.entity.ApiInfo">
+        select * from zz_api.api_info limit #{current},#{size};
+    </select>
+
+</mapper>
